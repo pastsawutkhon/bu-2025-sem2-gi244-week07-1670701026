@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public Transform spawnPoint;
-    public GameObject obstaclePrefab;
+    public GameObject[] obstaclePrefab;
     
     public PlayerController player;
 
@@ -19,10 +19,12 @@ public class SpawnManager : MonoBehaviour
 
     void Spawn()
     {
+        int obIndex = Random.Range(0, obstaclePrefab.Length);
+        Debug.Log(obIndex);
         if (!player.isGameOver)
         {
             
-            Instantiate(obstaclePrefab, spawnPoint.position, obstaclePrefab.transform.rotation);
+            Instantiate(obstaclePrefab[obIndex], spawnPoint.position, obstaclePrefab[obIndex].transform.rotation);
         }
 
     }

@@ -20,7 +20,7 @@ public class MoveLeft : MonoBehaviour
         if (player.isGameOver == false)
         {
             transform.Translate(speed * Time.deltaTime * Vector3.left);
-            transform.Translate(speed * Time.deltaTime * Vector3.left);
+            
         }
     }
 }

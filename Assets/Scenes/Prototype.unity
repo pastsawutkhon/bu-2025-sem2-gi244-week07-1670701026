@@ -149,18 +149,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 1183671265}
-  obstaclePrefab: {fileID: 2950568084678543206, guid: 44c94e6678bce7641b733f98d40c8e2c, type: 3}
-  obstacle:
-  - {fileID: 151586, guid: 95927758d3a4cef4ba6c4318f06876fd, type: 3}
-  - {fileID: 194656, guid: cb04eea70ee14ab49b68d12e2cbbf680, type: 3}
-  - {fileID: 134104, guid: 71782582b9d2cac4cba5251a3b767d13, type: 3}
-  - {fileID: 1732272334065596, guid: cdcb19fde9e8cba40b7bff849baf2c1b, type: 3}
-  - {fileID: 181666, guid: ee7d0c4ddd804dd4e95f705d43c9135e, type: 3}
-  - {fileID: 151096, guid: 367149bd17c4d4d4e8868ec6a5cf8d45, type: 3}
-  - {fileID: 151096, guid: 367149bd17c4d4d4e8868ec6a5cf8d45, type: 3}
-  - {fileID: 114304, guid: 3daef342e8f3f9548b04424eac7d4d0d, type: 3}
-  - {fileID: 1574251093279545299, guid: aa7a79e53bee7d64e9b1fb9894a773a5, type: 3}
-  - {fileID: 1609270425926636, guid: 9020d2933ec6c0544965ea4b12952c42, type: 3}
+  obstaclePrefab:
+  - {fileID: 2950568084678543206, guid: 44c94e6678bce7641b733f98d40c8e2c, type: 3}
+  - {fileID: 2950568084678543206, guid: 44c94e6678bce7641b733f98d40c8e2c, type: 3}
+  - {fileID: 2950568084678543206, guid: 44c94e6678bce7641b733f98d40c8e2c, type: 3}
+  - {fileID: 2950568084678543206, guid: 44c94e6678bce7641b733f98d40c8e2c, type: 3}
   player: {fileID: 1667492346595872697}
 --- !u!4 &132895512
 Transform:
